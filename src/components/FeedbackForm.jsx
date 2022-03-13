@@ -9,6 +9,8 @@ function FeedbackForm({ handleAdd }) {
   const [message, setMessage] = useState("");
   const [rating, setRating] = useState(5);
 
+  console.log(rating);
+
   const handleTextChange = (e) => {
     if (text === "") {
       setBtnDisabled(true);
